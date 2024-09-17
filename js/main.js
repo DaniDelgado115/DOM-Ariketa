@@ -13,3 +13,5 @@ bat.onclick = () => {
     for(let i=0; i< h1Goiburuak.length; i++)
         h1Goiburuak[i].style.color = "red"
 }
+
+// b)

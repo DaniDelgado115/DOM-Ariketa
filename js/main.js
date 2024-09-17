@@ -15,3 +15,13 @@ bat.onclick = () => {
 }
 
 // b)
+bi.onclick = () => {
+    console.log("click bi botoian")
+    let h2Goiburuak = document.querySelectorAll("h2")
+    let h2Arraya = Array.from(h2Goiburuak)
+    h2Arraya.forEach( (h2elementu, indizea) => {
+        console.log(h2elementu);
+        console.log(indizea);
+        h2elementu.innerText="Goiburu2-"+(indizea+1)
+    })
+}

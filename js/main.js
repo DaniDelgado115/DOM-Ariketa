@@ -1,12 +1,12 @@
 window.onload=() => {
     
-    document.getElementById('uno').innerText('Bat')
-    document.getElementById('dos').innerText('Bi')
-    document.getElementById('tres').innerText('Hiru')
+    document.getElementById('uno').innerText='Bat'
+    document.getElementById('dos').innerText='Bi'
+    document.getElementById('tres').innerText='Hiru'
 
 //1. Ariketa
 // a)
-    
+    let bat=document.getElementById('uno')
     bat.onclick = () => {
         console.log("click bat botoian")
         let h1Goiburuak = document.querySelectorAll("h1")
@@ -15,6 +15,7 @@ window.onload=() => {
     }
 
 // b)
+    let bi=document.getElementById('dos')
     bi.onclick = () => {
     console.log("click bi botoian")
     let h2Goiburuak = document.querySelectorAll("h2")

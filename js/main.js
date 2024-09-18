@@ -1,21 +1,21 @@
-let bat= document.getElementById('uno')
-bat.innerText="Bat"
-let bi= document.getElementById('dos')
-bi.innerText="Bi"
-let hiru= document.getElementById('hiru')
-hiru.innerText= "Hiru"
+window.ondload=() => {
+    
+    document.getElementById('uno').innerText('Bat')
+    document.getElementById('dos').innerText('Bi')
+    document.getElementById('tres').innerText('Hiru')
 
 //1. Ariketa
 // a)
-bat.onclick = () => {
-    console.log("click bat botoian")
-    let h1Goiburuak = document.querySelectorAll("h1")
-    for(let i=0; i< h1Goiburuak.length; i++)
-        h1Goiburuak[i].style.color = "red"
-}
+    
+    bat.onclick = () => {
+        console.log("click bat botoian")
+        let h1Goiburuak = document.querySelectorAll("h1")
+        for(let i=0; i< h1Goiburuak.length; i++)
+            h1Goiburuak[i].style.color = "red"
+    }
 
 // b)
-bi.onclick = () => {
+    bi.onclick = () => {
     console.log("click bi botoian")
     let h2Goiburuak = document.querySelectorAll("h2")
     let h2Arraya = Array.from(h2Goiburuak)
@@ -25,3 +25,5 @@ bi.onclick = () => {
         h2elementu.innerText="Goiburu2-"+(indizea+1)
     })
 }
+}
+

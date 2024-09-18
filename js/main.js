@@ -32,7 +32,9 @@ window.onload=() => {
     hiru.onclick = () => {
         console.log("click hiru botoian")
         let Hak= Array.from(document.querySelectorAll('h1, h2, h3'))
-        Hak.forEach( (H,ind) => {goiburukoak[ind]=H.outerText})
+        Hak.forEach( (H,ind) => {goiburukoak[ind]=H.outerText;
+            console.log(H.outerText);
+        })
     }
 }
 

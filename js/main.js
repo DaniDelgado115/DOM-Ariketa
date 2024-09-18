@@ -1,4 +1,4 @@
-window.ondload=() => {
+window.onload=() => {
     
     document.getElementById('uno').innerText('Bat')
     document.getElementById('dos').innerText('Bi')
